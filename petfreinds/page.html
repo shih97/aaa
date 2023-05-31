@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="css/page.css" />
+    <title>펫프렌즈</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div class="top">
+          <ul>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </div>
+        <div class="topMenu">
+          <div class="logo">
+            <a
+              href="file:///D:/%EC%8B%A0%EC%9D%80%EA%B2%BD/Html5%26CSS/pot/petfreinds/index.html"
+              ><img src="images/petlogo.png" alt="petlogo"
+            /></a>
+          </div>
+          <div class="search">
+            <div class="box">
+              <span class="material-symbols-outlined"> search </span>
+              <input type="search" autofocus />
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a
+              href="file:///D:/%EC%8B%A0%EC%9D%80%EA%B2%BD/Html5%26CSS/pot/petfreinds/page.html"
+              >사료</a
+            >
+          </li>
+          <li><a href="#">간식</a></li>
+          <li><a href="#">용품</a></li>
+          <li><a href="#">기타 애완동물</a></li>
+        </ul>
+      </div>
+      <!--menu-->
+      <div class="sub">
+        <ul class="submenu">
+          <li>
+            <ul>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">인기상품</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">강아지 사료</a></li>
+              <li><a href="#">고양이 사료</a></li>
+              <li><a href="#">동결 사료</a></li>
+              <li><a href="#">습식 사료</a></li>
+              <li><a href="#">어덜트</a></li>
+              <li><a href="#">시니어</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">수제간식</a></li>
+              <li><a href="#">덴탈껌</a></li>
+              <li><a href="#">영양/기능</a></li>
+              <li><a href="#">껌</a></li>
+              <li><a href="#">저키</a></li>
+              <li><a href="#">뼈간식</a></li>
+              <li><a href="#">동결/건조</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">장난감</a></li>
+              <li><a href="#">산책용품</a></li>
+              <li><a href="#">배변용품</a></li>
+              <li><a href="#">의류/악세사리</a></li>
+              <li><a href="#">하우스/방석</a></li>
+              <li><a href="#">미용/관리</a></li>
+              <li><a href="#">노즈워크</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">토끼/기니피그 용품</a></li>
+              <li><a href="#">햄스터/다람쥐 용품</a></li>
+              <li><a href="#">곤충 용품</a></li>
+              <li><a href="#">파충류 용품</a></li>
+              <li><a href="#">조류용 용품</a></li>
+            </ul>
+          </li>
+        </ul>
+        <script>
+          let sub = document.querySelector(".sub");
+          let gnb = document.querySelector(".menu");
+          sub.style.display = "none";
+          gnb.addEventListener("mouseover", function () {
+            sub.style.display = "block";
+          });
+          gnb.addEventListener("mouseout", function () {
+            sub.style.display = "none";
+          });
+          sub.addEventListener("mouseenter", function () {
+            sub.style.display = "block";
+          });
+          sub.addEventListener("mouseleave", function () {
+            sub.style.display = "none";
+          });
+        </script>
+      </div>
+      <!--menu-->
+      <div class="content">
+        <h2>강아지 사료</h2>
+        <ul class="items">
+          <li>
+            <a href="#"><img src="images/feed1.png" alt="feed1" /></a>
+            <p>펫다움 소고기 5kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/feed2.png" alt="feed2" /></a>
+            <p>베이직 살몬 레시피 3kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/cat_feed.png" alt="cat_feed" /></a>
+            <p>강아지 사료</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/acanaduck.png" alt="acanaduck" /></a>
+            <p>아카나 독 프리런 덕 2kg</p>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/beefsalmon_base.png" alt="beefsalmon_base"
+            /></a>
+            <p>ANF 독 6 Free 플러스<br />소고기&연어 1.8kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/herzturkey.png" alt="herzturkey" /></a>
+            <p>허즈 독 칠면조가슴살 레시피 100g</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/ziwtpeak.png" alt="ziwtpeak" /></a>
+            <p>지위픽 독 소고기 1kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/origenfish.png" alt="origenfish" /></a>
+            <p>오리젠 독 6피쉬 6kg</p>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/naturalfeed.png" alt="naturalfeed"
+            /></a>
+            <p>네츄럴코어 독 유기농 에코4<br />덕 슬림다운 6kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/hypofeed.png" alt="hypofeed" /></a>
+            <p>인섹트도그 하이포알러젠 빅 10kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/lowfatdiet.png" alt="lowfatdiet" /></a>
+            <p>웰츠 독 저지방 다이어트 6kg</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/doctordog.png" alt="doctordog" /></a>
+            <p>닥터독 위장사료 2kg</p>
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <div class="chalogo">
+          <img src="images/petfriends.png" alt="펫프렌즈" />
+        </div>
+        <div class="copyright">
+          <p>서울 강남구 연주로 79길 8</p>
+          <p>
+            Copyright 2023. petfriends All pictures cannot copied without
+            permission.
+          </p>
+        </div>
+        <div class="sns">
+          <img src="images/sns.png" alt="sns" />
+          <ul>
+            <li><a href="#">@pet_bf</a></li>
+            <li><a href="#">펫프렌즈 공식채널</a></li>
+            <li><a href="#">@pet_bf</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
